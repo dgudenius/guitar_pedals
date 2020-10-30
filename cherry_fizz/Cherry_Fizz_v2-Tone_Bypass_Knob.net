@@ -1,0 +1,207 @@
+( { EESchema Netlist Version 1.1 created  6/9/2020 4:23:18 PM }
+ ( /5EDC5750 Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal  R1 39k
+  (    1 Net-(C1-Pad2) )
+  (    2 In )
+ )
+ ( /5EDC8103 Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm  C1 .1u
+  (    1 Net-(C1-Pad1) )
+  (    2 Net-(C1-Pad2) )
+ )
+ ( /5EDC9FA0 Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal  R2 470k
+  (    1 Net-(C2-Pad1) )
+  (    2 Net-(C1-Pad1) )
+ )
+ ( /5EDCAE11 Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm  C2 470p
+  (    1 Net-(C2-Pad1) )
+  (    2 Net-(C1-Pad1) )
+ )
+ ( /5EDC9008 Package_TO_SOT_THT:TO-92_Inline  Q1 BC337
+  (    1 Net-(C2-Pad1) )
+  (    2 Net-(C1-Pad1) )
+  (    3 Net-(Q1-Pad3) )
+ )
+ ( /5EDCDB40 Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal  R3 100k
+  (    1 Net-(C1-Pad1) )
+  (    2 GND )
+ )
+ ( /5EDCF025 Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal  R4 390
+  (    1 Net-(Q1-Pad3) )
+  (    2 GND )
+ )
+ ( /5EDD06ED Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm  C3 .1u
+  (    1 Net-(C3-Pad1) )
+  (    2 Net-(C2-Pad1) )
+ )
+ ( /5EDD1F2C Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical  Sustain1 A50k
+  (    1 Net-(C3-Pad1) )
+  (    2 Net-(C4-Pad2) )
+  (    3 Net-(R6-Pad1) )
+ )
+ ( /5EDD2898 Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal  R6 1k
+  (    1 Net-(R6-Pad1) )
+  (    2 GND )
+ )
+ ( /5EDD3BA3 Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm  C4 .1u
+  (    1 Net-(C4-Pad1) )
+  (    2 Net-(C4-Pad2) )
+ )
+ ( /5EDD471F Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal  R7 10k
+  (    1 Net-(C5-Pad2) )
+  (    2 Net-(C4-Pad1) )
+ )
+ ( /5EDD5624 Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal  R9 100k
+  (    1 Net-(C5-Pad2) )
+  (    2 GND )
+ )
+ ( /5EDD6340 Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm  C5 .047u
+  (    1 Net-(C5-Pad1) )
+  (    2 Net-(C5-Pad2) )
+ )
+ ( /5EDD73F9 Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal  R8 470k
+  (    1 Net-(C6-Pad1) )
+  (    2 Net-(C5-Pad2) )
+ )
+ ( /5EDDA9D5 Diode_THT:D_A-405_P7.62mm_Horizontal  D2 1N914
+  (    1 Net-(C5-Pad1) )
+  (    2 Net-(C6-Pad1) )
+ )
+ ( /5EDDD9E5 Package_TO_SOT_THT:TO-92_Inline  Q2 BC549
+  (    1 Net-(C6-Pad1) )
+  (    2 Net-(C5-Pad2) )
+  (    3 Net-(Q2-Pad3) )
+ )
+ ( /5EDDF892 Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal  R10 390
+  (    1 Net-(Q2-Pad3) )
+  (    2 GND )
+ )
+ ( /5EDF9381 Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm  C7 .1u
+  (    1 Net-(C7-Pad1) )
+  (    2 Net-(C6-Pad1) )
+ )
+ ( /5EDF9387 Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal  R12 10k
+  (    1 Net-(C8-Pad2) )
+  (    2 Net-(C7-Pad1) )
+ )
+ ( /5EDF938D Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal  R14 100k
+  (    1 Net-(C8-Pad2) )
+  (    2 GND )
+ )
+ ( /5EDF9393 Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm  C8 .047u
+  (    1 Net-(C8-Pad1) )
+  (    2 Net-(C8-Pad2) )
+ )
+ ( /5EDF9399 Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal  R13 470K
+  (    1 Net-(Bypass1-Pad1) )
+  (    2 Net-(C8-Pad2) )
+ )
+ ( /5EDF939F Diode_THT:D_A-405_P7.62mm_Horizontal  D3 1N914
+  (    1 Net-(Bypass1-Pad1) )
+  (    2 Net-(C8-Pad1) )
+ )
+ ( /5EDF93A5 Diode_THT:D_A-405_P7.62mm_Horizontal  D4 1N914
+  (    1 Net-(C8-Pad1) )
+  (    2 Net-(Bypass1-Pad1) )
+ )
+ ( /5EDF93B9 Package_TO_SOT_THT:TO-92_Inline  Q3 BC549
+  (    1 Net-(Bypass1-Pad1) )
+  (    2 Net-(C8-Pad2) )
+  (    3 Net-(Q3-Pad3) )
+ )
+ ( /5EDF93C7 Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal  R15 390
+  (    1 Net-(Q3-Pad3) )
+  (    2 GND )
+ )
+ ( /5EDFC3DD Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal  R11 10k
+  (    1 V+ )
+  (    2 Net-(C6-Pad1) )
+ )
+ ( /5EDD8151 Diode_THT:D_A-405_P7.62mm_Horizontal  D1 1n914
+  (    1 Net-(C6-Pad1) )
+  (    2 Net-(C5-Pad1) )
+ )
+ ( /5EDFECC2 Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal  R16 10k
+  (    1 V+ )
+  (    2 Net-(Bypass1-Pad1) )
+ )
+ ( /5EE03796 Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal  R5 10k
+  (    1 V+ )
+  (    2 Net-(C2-Pad1) )
+ )
+ ( /5EE07028 Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm  C11 .01u
+  (    1 Net-(C11-Pad1) )
+  (    2 GND )
+ )
+ ( /5EE08144 Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm  C10 .0047u
+  (    1 Net-(C10-Pad1) )
+  (    2 Net-(Bypass1-Pad1) )
+ )
+ ( /5EE09566 Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal  R18 22k
+  (    1 GND )
+  (    2 Net-(C10-Pad1) )
+ )
+ ( /5EE0A25F Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal  R17 39k
+  (    1 Net-(C11-Pad1) )
+  (    2 Net-(Bypass1-Pad1) )
+ )
+ ( /5EE16CA6 Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical  Tone1 B100k
+  (    1 Net-(C10-Pad1) )
+  (    2 Net-(Bypass1-Pad3) )
+  (    3 Net-(C11-Pad1) )
+ )
+ ( /5EE1F756 Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical  Bypass1 A250k
+  (    1 Net-(Bypass1-Pad1) )
+  (    2 Net-(Bypass1-Pad1) )
+  (    3 Net-(Bypass1-Pad3) )
+ )
+ ( /5EE2549C Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm  C12 .1u
+  (    1 Net-(C12-Pad1) )
+  (    2 Net-(Bypass1-Pad3) )
+ )
+ ( /5EE49671 Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal  R20 100k
+  (    1 Net-(C12-Pad1) )
+  (    2 GND )
+ )
+ ( /5EE4A03B Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal  R19 470k
+  (    1 Net-(C13-Pad2) )
+  (    2 Net-(C12-Pad1) )
+ )
+ ( /5EE4C9DB Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal  R22 10k
+  (    1 V+ )
+  (    2 Net-(C13-Pad2) )
+ )
+ ( /5EE65A80 Package_TO_SOT_THT:TO-92_Inline  Q4 BC547
+  (    1 Net-(C13-Pad2) )
+  (    2 Net-(C12-Pad1) )
+  (    3 Net-(Q4-Pad3) )
+ )
+ ( /5EE6704C Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm  C13 .1u
+  (    1 Net-(C13-Pad1) )
+  (    2 Net-(C13-Pad2) )
+ )
+ ( /5EE67FD5 Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm  C14 1u
+  (    1 ? )
+  (    2 Net-(C14-Pad2) )
+ )
+ ( /5EE69130 Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical  Volume1 A100k
+  (    1 Net-(C13-Pad1) )
+  (    2 Net-(C14-Pad2) )
+  (    3 GND )
+ )
+ ( /5EE6E046 Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal  R21 2.2K
+  (    1 Net-(Q4-Pad3) )
+  (    2 GND )
+ )
+ ( /5EEB48AA Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm  C6 470p
+  (    1 Net-(C6-Pad1) )
+  (    2 Net-(C5-Pad2) )
+ )
+ ( /5EECA67E Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm  C9 470p
+  (    1 Net-(Bypass1-Pad1) )
+  (    2 Net-(C8-Pad2) )
+ )
+ ( /5EEE81E1 Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal  R23 1.2M
+  (    1 In )
+  (    2 GND )
+ )
+)
+*
